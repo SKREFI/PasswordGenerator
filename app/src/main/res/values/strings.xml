@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="long_str">This is my very long string would like to replace with a soft coded variable!</string>
+</resources>

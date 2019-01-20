@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview_pass"
+        android:text="Password Settings"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridLayout
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textview_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Switch
+            android:textSize="30sp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/switch_has_digits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Has Digits" />
+
+    </GridLayout>
+
+
+
+</RelativeLayout>
